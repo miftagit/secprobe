@@ -49,7 +49,7 @@ For practice, you can use a deliberately vulnerable demo site: `https://demo.tes
 2. Clone the repo and install the dependencies:
 
 ```bash
-git clone https://github.com/miftagit/secprobe.git
+git clone https://github.com/rmiftah/secprobe.git
 cd secprobe
 pip install -r requirements.txt
 ```

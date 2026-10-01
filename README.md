@@ -8,7 +8,7 @@
 
 ## Demo
 
-![SecProbe demo](assets/demo.gif)
+![SecProbe demo](assets/demo.png)
 
 ## Overview
 

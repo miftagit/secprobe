@@ -8,7 +8,6 @@
 
 ## Demo
 
-<!-- Ganti dengan GIF/screenshot hasil scan kamu, taruh di folder assets/ -->
 ![SecProbe demo](assets/demo.gif)
 
 ## Overview
@@ -34,7 +33,7 @@ Untuk latihan, kamu bisa pakai situs demo yang memang sengaja dibuat rentan: `ht
 2. Clone repo dan install library:
 
 ```bash
-git clone https://github.com/USERNAME_KAMU/secprobe.git
+git clone https://github.com/miftagit/secprobe.git
 cd secprobe
 pip install -r requirements.txt
 ```
@@ -44,19 +43,19 @@ pip install -r requirements.txt
 Scan semua modul:
 
 ```bash
-python secprobe.py --url https://demo.testfire.net
+python secprobe.py --url https://example.com
 ```
 
 Scan modul tertentu:
 
 ```bash
-python secprobe.py --url https://demo.testfire.net --modul A02 A06
+python secprobe.py --url https://example.com --modul A02 A06
 ```
 
 Scan dan simpan laporan:
 
 ```bash
-python secprobe.py --url https://demo.testfire.net --output laporan.txt
+python secprobe.py --url https://example.com --output laporan.txt
 ```
 
 ### Opsi

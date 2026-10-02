@@ -103,8 +103,8 @@ def banner(url):
           Fore.GREEN+Style.BRIGHT+"  v"+VERSION+"  "+Fore.BLUE+Style.BRIGHT+"│"+Style.RESET_ALL+
           Fore.WHITE+"  OWASP A02 · A05 · A06")
     garis("tipis")
-    baris(Fore.WHITE+Style.DIM+"  Author  : Miftahus Surur   │   NIM : B.2.4.22.0005")
-    baris(Fore.WHITE+Style.DIM+"  Teknik Informatika  │  Universitas Sultan Fatah Demak")
+    baris(Fore.WHITE+Style.DIM+"  Author  : rMiftah")
+  
     garis("tengah")
     baris(Fore.WHITE+"  "+Fore.BLUE+Style.BRIGHT+"◈  "+Style.RESET_ALL+Fore.WHITE+"Target  : "+Fore.YELLOW+Style.BRIGHT+url[:55])
     baris(Fore.WHITE+"  "+Fore.BLUE+Style.BRIGHT+"◈  "+Style.RESET_ALL+Fore.WHITE+"Tanggal : "+Fore.YELLOW+datetime.datetime.now().strftime("%A, %d %B %Y  %H:%M:%S"))

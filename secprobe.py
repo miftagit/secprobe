@@ -3,9 +3,8 @@
 SecProbe v1.0 - Web Security Evaluation Tool
 Berbasis Standar OWASP A02 · A05 · A06
 
-Author : Miftahus Surur
-NIM    : B.2.4.22.0005
-Prodi  : Teknik Informatika - Universitas Sultan Fatah Demak
+Author : rMiftah
+
 """
 
 import argparse, socket, ssl, sys, time, datetime, requests, urllib.parse, warnings, threading
